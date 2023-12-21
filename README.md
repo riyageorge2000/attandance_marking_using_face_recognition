@@ -1,7 +1,6 @@
 # attandance_marking_using_face_recognition
 
 
-### Objective:
 The goal of this project is to create an automated attendance system using face recognition technology. The system utilizes a webcam to detect faces in real-time, matches them with known student faces, and maintains an attendance record based on the recognized individuals.
 
 
@@ -37,8 +36,7 @@ User Interface:
 Displays live video feed from the webcam.
 Draws rectangles around detected faces and labels them with recognized student names.
 
-
-### Operation:
+Operation:
 
 The system operates in a continuous loop until the user presses 'q' to quit.
 Detected faces are marked as present in the Excel file if they match known student faces.
