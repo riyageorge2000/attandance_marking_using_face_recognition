@@ -9,20 +9,15 @@ The goal of this project is to create an automated attendance system using face 
 ### Libraries Used:
 
 face_recognition: for face detection and recognition.
+
 os: for file path operations.
+
 cv2 (OpenCV): for accessing and manipulating webcam video feed.
+
 datetime: for timestamping attendance records.
+
 csv and pandas: for handling Excel data.
 
-
-
-### Workflow:
-
-Loads student information from an Excel file (students.xlsx) into a Pandas DataFrame.
-Processes images associated with each student to create face encodings.
-Activates the webcam to continuously capture frames.
-Detects faces in each frame and matches them against known student faces using face encodings.
-Tracks and records attendance by marking students present or absent in the Excel file based on detected faces.
 
 
 ### Functionality:
